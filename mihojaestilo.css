@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+#cabeceraweb{
+  background-color: #00F;
+
+}
+
+#navegacionpricipal{
+  background-color: #F00;
+}
+
+#barralateral{
+  background-color: #0F0;
+  float: left;
+  height: 850px;
+
+}
+
+#contenidoprincipal{
+  background-color: #606;
+  margin-left: 210px;
+  padding-left: 15px;
+  padding-top: 15px;/* este permite la separacion de los bordes del contenido del bloque*/
+}
+#pieprincipal{
+  background-color: #FF0;
+  clear: both; /*con esta propiedad logramos que al estar haciendo contacto con la barra laterl esta se coloque inferior*/
+  margin-top: 30px; /*el margen lo que hace de la separacion de los bloques unos de otros*/
+}
+li{
+  background-color: #FF0;
+  display: inline;
+}
